@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{95fea84b-4085-4937-9ce5-9b52a5d127ee}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Algorithm\01 CH 01 조합 Combination.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Algorithm\01 CH 02 순열 Permutation.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Algorithm\01 DBFS 01 깊이 우선 탐색 DFS.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Algorithm\01 DBFS 02 너비 우선 탐색 BFS.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Algorithm\01 그리디 Greedy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Algorithm\01 완전 탐색 Exhaustive search.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Algorithm\02 SD 00 최단거리 Shortest distance.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Algorithm\02 SD 01 최단거리 Shortest distance - 다익스트라 Dijkstra.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Algorithm\02 동적 프로그래밍 Dynamic programing.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Algorithm\02 분할 정복 Divide and conquer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Algorithm\02 이진 탐색 Binary search.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Algorithm\_Log.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CodeTest\2021 11 26 - Way - 생성 전 초기화 Initialize before construct.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CodeTest\2021 12 04 float 오류 만들기.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CodeTest\2021 12 07 unique_ptr call delete.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CodeTest\2021 12 08 - Way - __COUNTER__매크로를 이용한 TMP 프로그래밍.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CodeTest\2021 12 09 attribute class.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CodeTest\2021 12 14 Functional.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CodeTest\2021 12 14 배타적 상속 exclusive inheritance.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CodeTest\2021 12 18 - Way - 생성 전 초기화 보다 구체적.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CodeTest\2021 12 23 가짜 가상 함수 테이블.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CodeTest\Header_1.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CodeTest\Shared ptr test.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CodeTest\std move nd forward.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\01 cast 01 암시적 명시적 형변환 implicit explicit cast.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\01 cast 02 기본 형변환 default cast.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\01 cast 03 크로스 형변환 cross cast.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\01 lambda 00 람다.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\01 literal 00 리터럴 literal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\01 literal 01 유저 정의 리터럴 user-defined literals.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\01 유니폼 초기화 Uniform Initialization.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\02 스텐다드 라이브러리 Standard library.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\02 알고리즘 algorithm.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\02 프로그래밍 원칙.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\03 Computer science 00 CPU.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\03 스마트 포인터 smart pointer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\03 완변전달 move forward.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\03 완변전달 perfect_forwarding.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\04 atomic 02 원자성.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\04 template 01 가변 길이 템플릿 Variadic template.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\04 template 01 템플릿 메타 프로그래밍 Template meta programming.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\04 template 01 템플릿 메타 프로그래밍.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\04 template mor technical skill.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\04 thread 00 스레드 생성과 인수 전달.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\04 thread 01 데이터 레이스와 뮤텍스.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\04 thread 02 생산자 소비자 패턴.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\04 thread 03 동기와 비동기 실행.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\04 thread 05 thread_pool v2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\04 thread 05 thread_pool v1.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\CPP_basic\Specific struct - 문자열 string.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\EffectiveCPP\02 auto 형식 연역을 숙지해라.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\EffectiveCPP\08 Nullptr을 선호해라.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\EffectiveCPP\09 thypdef 보단 별칭 선언을 더 선호해라.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\EffectiveCPP\10 enum class를 이용해라.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\EffectiveCPP\11 delete function을 이용해라.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\EffectiveCPP\12 재정의 함수는 override로 선언하라.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\EffectiveCPP\17 특별 맴버 함수의 생성조건을 숙지하라.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\EffectiveCPP\18 unique_ptr을 선호해라.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\EffectiveCPP\19 shared_ptr을 선호해라.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\EffectiveCPP\31 기본 갈무리 모드를 피하라.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\EffectiveCPP\32 객체를 클로저 안으로 이동하려면 초기화 갈무리를 사용하라.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\EffectiveCPP\33 bind보다 람다를 선호하라.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\EffectiveCPP\35 동시성 API_스레드 기반 프로그래밍보다 과제 기반 프로그래밍을 선호하라.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Lib\delegate.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Lib\ptr.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Lib\serialize.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Lib\serialize1.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Lib\serialize2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Lib\serialize3.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Lib\serialize4.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Lib\thread_pool.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L01 - 프로그래머스 - 두 정수 사이의 합.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L01 - 프로그래머스 - 로또의 최고 순위와 최저 순위.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L01 - 프로그래머스 - 문자열 내 마음대로 정렬하기.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L01 - 프로그래머스 - 문자열 정수로 바꾸기.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L01 - 프로그래머스 - 수박수박수박수박.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L01 - 프로그래머스 - 시저암호.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L01 - 프로그래머스 - 신규 아이디 추천 못풀었던 문제.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L01 - 프로그래머스 - 자연수 뒤집어 배열로 만들기.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L01 - 프로그래머스 - 정수 내림차순으로 정리하기.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L02 - 프로그래머스 - 124나라의 숫자.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L02 - 프로그래머스 - 단체사진 찍기.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L02 - 프로그래머스 - 더 맵게.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L02 - 프로그래머스 - 메뉴 리뉴얼.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L02 - 프로그래머스 - 문자열 압축.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L02 - 프로그래머스 - 소수 찾기 개선 중복조합과 소수를 사용함.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L02 - 프로그래머스 - 소수 찾기.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L02 - 프로그래머스 - 수식 최대화.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L02 - 프로그래머스 - 짝지어 제거하기.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L02 - 프로그래머스 - 카카오 프렌즈 커러링북.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L02 - 프로그래머스 - 행렬 테두리 회전하기.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\L03 - 프로그래머스 - N으로 표현.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\Slovle - 약수 구하기.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\_Log.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\백준 - 1000 - A+B.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\자문자답 - thread - 스레드를 이용하기.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Standard_Template_Library\Container library - adaptors 어뎁터.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Standard_Template_Library\Container library - associative 정렬.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Standard_Template_Library\Container library - sequence 연속성.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Standard_Template_Library\Container library - unordered associative 비정렬.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Standard_Template_Library\Method - Algorithm - .h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Standard_Template_Library\Specific struct - 복소수 complex.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Standard_Template_Library\Specific struct - 시간 관리 crono.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Study-cpp\Standard_Template_Library\_Log.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Study-cpp\Algorithm\Algorithm.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Study-cpp\CodeTest\main.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Study-cpp\Lib\Lib.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Study-cpp\Solve\Solve.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Study-cpp\Standard_Template_Library\Standard_Template_Library.cpp" />
+  </ItemGroup>
+</Project>
